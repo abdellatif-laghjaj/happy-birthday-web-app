@@ -1,10 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
 html {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: "Work Sans", sans-serif;
+  font-family: 'Poppins', sans-serif;
+  height: 100vh;
+  background-image: url(/img/bg.svg);
+  background-color: rgb(22, 21, 21);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
 }
 
 .container {
